@@ -14,7 +14,7 @@ default_books = [
     ("The Way of Kings", "Brandon Sanderson", False)
 ]
 
-env_token = "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"
+api_key = "sk_live_a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0"
 
 
 if __name__ == "__main__":
