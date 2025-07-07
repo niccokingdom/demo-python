@@ -14,8 +14,13 @@ default_books = [
     ("The Way of Kings", "Brandon Sanderson", False)
 ]
 
-api_key = "sk_live_a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0"
-
+FAKE_PRIVATE_KEY = """
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpQIBAAKCAQEAyZ9V1aB5s4kY+p2F/L/C/g5n2kX/v8b3j4h5g6t7y8i9o0k7l6
+... (this is just random text for the example) ...
+a9b8c7d6e5f4g3h2i1j0k9l8m7n6o5p4q3r2s1t0u9v8w7x6y5z4a3b2c1d0e9f8g7
+-----END RSA PRIVATE KEY-----
+"""
 
 if __name__ == "__main__":
     cursor.execute(
