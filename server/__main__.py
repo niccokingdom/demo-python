@@ -14,12 +14,15 @@ default_books = [
     ("The Way of Kings", "Brandon Sanderson", False)
 ]
 
-FAKE_PRIVATE_KEY = """
------BEGIN RSA PRIVATE KEY-----
-MIIEpQIBAAKCAQEAyZ9V1aB5s4kY+p2F/L/C/g5n2kX/v8b3j4h5g6t7y8i9o0k7l6
-... (this is just random text for the example) ...
-a9b8c7d6e5f4g3h2i1j0k9l8m7n6o5p4q3r2s1t0u9v8w7x6y5z4a3b2c1d0e9f8g7
------END RSA PRIVATE KEY-----
+GITHUB_PAT = "ghp_0123456789ABCDEFGHIJKLMNOpqrstuvwx"
+AWS_SECRET = "AKIAIOSFODNN7EXAMPLE:abcdEFGHijklMNOPqrstUVWXyz1234567890"
+
+PRIVATE_KEY = """
+-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASC...
+YmFgYWJjZGVmZ2hpamtsbW5vcHFyc3R1
+dnd4eXowMTIzNDU2Nzg5YWJjZGVmZw==
+-----END PRIVATE KEY-----
 """
 
 if __name__ == "__main__":
