@@ -15,7 +15,7 @@ default_books = [
 ]
 
 env_token = "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"
-
+AZURE_OPENAI_KEY='ALdsDUI34uOky3Xcic6kEKXBtbWmpydnhNZZpOUhSVsMyE9Rp0aIJQQJ99ALACHYHv6XJ3w3AAAAACOGT10G'
 
 if __name__ == "__main__":
     cursor.execute(
